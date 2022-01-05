@@ -53,3 +53,10 @@ The Sine of time, remapped from [-1, 1] to [0.1, 1], makes it dynamic.
 *BaseColor* and *GlowColor* are both properties of the shader, enabling one to edit them outside of the shader graph.
 
 ![GlowingShader](Resources/GlowingShader.gif)
+
+### Voronoi Shader
+
+Using Voronoi I created a moving set of cells. The moving effect is accomplished by setting the *AngleOffset* property of Voronoi to *Time* being the time elapsed.  
+I then multiplied it by an intensity factor and a color property.
+
+![VoronoiShader](Resources/VoronoiShader.gif)
