@@ -60,3 +60,11 @@ Using Voronoi I created a moving set of cells. The moving effect is accomplished
 I then multiplied it by an intensity factor and a color property.
 
 ![VoronoiShader](Resources/VoronoiShader.gif)
+
+### Fade Shader
+
+Using a simple noise coupled with a step function and the Alpha Clip Threshold of a surface, I managed to create a fading effect.  
+With a different step I can add a color border where the fade is occuring.
+
+![FadeShader](Resources/FadeShader.gif)  
+*Note that the remaining distortion of the skybox is due to low-quality .gif format.*
