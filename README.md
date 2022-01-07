@@ -75,3 +75,9 @@ I tried using the *Scene Depth* node that enables us to use collision, thus crea
 I then used a tiling electricity texture and made it moving to create a scrolling effect where the force field is colliding with another object.
 
 ![ForceFieldShader](Resources/ForceField.gif)
+
+### Distortion Shader
+
+First time tackling with the vertex shader, using a voronoi noise to modify the vertices positions.
+
+![DistortionShader](Resources/Distortion.gif)
