@@ -52,19 +52,26 @@ The Sine of time, remapped from [-1, 1] to [0.1, 1], makes it dynamic.
 
 *BaseColor* and *GlowColor* are both properties of the shader, enabling one to edit them outside of the shader graph.
 
-![GlowingShader](Resources/GlowingShader.gif)
+![GlowingShader](Resources/Glowing.gif)
 
 ### Voronoi Shader
 
 Using Voronoi I created a moving set of cells. The moving effect is accomplished by setting the *AngleOffset* property of Voronoi to *Time* being the time elapsed.  
 I then multiplied it by an intensity factor and a color property.
 
-![VoronoiShader](Resources/VoronoiShader.gif)
+![VoronoiShader](Resources/Voronoi.gif)
 
 ### Fade Shader
 
 Using a simple noise coupled with a step function and the Alpha Clip Threshold of a surface, I managed to create a fading effect.  
 With a different step I can add a color border where the fade is occuring.
 
-![FadeShader](Resources/FadeShader.gif)  
+![FadeShader](Resources/Fade.gif)  
 *Note that the remaining distortion of the skybox is due to low-quality .gif format.*
+
+### Force Field Shader
+
+I tried using the *Scene Depth* node that enables us to use collision, thus creating a force field effect.  
+I then used a tiling electricity texture and made it moving to create a scrolling effect where the force field is colliding with another object.
+
+![ForceFieldShader](Resources/ForceField.gif)
